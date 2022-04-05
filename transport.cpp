@@ -492,7 +492,7 @@ void CompareNodesFromStream(stringstream& lhs, stringstream& rhs) {
 int main() {
 //	stringstream ss_from_input, ss_to_output, ss_to_compare;
 //	
-//	if( ifstream file_inp("transport-input2.json");
+//	if( ifstream file_inp("json_data/transport-input1.json");
 //		file_inp ) 
 //	{
 //		ss_from_input << file_inp.rdbuf();
@@ -501,7 +501,7 @@ int main() {
 //	else 
 //		return 1;
 //	
-//	if( ifstream file_inp("transport-output2.json");
+//	if( ifstream file_inp("json_data/transport-output1.json");
 //		file_inp )
 //	{
 //		ss_to_compare << file_inp.rdbuf();
